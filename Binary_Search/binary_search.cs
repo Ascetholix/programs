@@ -29,5 +29,5 @@ string BinarySearch(int[] arg, int arg1) // Метод поиска. Возвр�
 int[] list = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 int item = 8;
 
-System.Console.WriteLine(BinarySearch(list, item));
+Console.WriteLine(BinarySearch(list, item));
 
