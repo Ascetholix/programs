@@ -11,10 +11,10 @@ void ChoiceSort(int[] arg)
       {
         minIndex = j;
       }
+    }
       int tmp = arg[i];
       arg[i] = arg[minIndex];
       arg[minIndex] = tmp;
-    }
   }
 }
 
